@@ -1,4 +1,5 @@
-import "./styles/app.css";
+import "./styles/left-menu.css";
+import "./styles/email.css";
 
 import flaticonWelcomeImage from "./assets/images/flaticon-welcome-image.png";
 import backArrow from "./assets/icons/back-arrow.png";
