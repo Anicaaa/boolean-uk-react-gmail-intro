@@ -1,12 +1,20 @@
-import './styles/app.css'
+import "./styles/app.css";
 
-import flaticonWelcomeImage from './assets/images/flaticon-welcome-image.png'
-import backArrow from './assets/icons/back-arrow.png'
-import downloadButton from './assets/icons/download-button.png'
-import rateStarButton from './assets/icons/rate-star-button.png'
-import rubbishButton from './assets/icons/rubbish-bin-delete-button.png'
+import Header from "./header.js";
+import Nav from "./nav";
+import Main from "./main";
 
 function App() {
+  return (
+    <div className="app">
+      <Header />
+      <Nav />
+      <Main />
+    </div>
+  );
+}
+
+/* function App() {
   return (
     <div className="app">
       <header className="header">
@@ -116,7 +124,7 @@ function App() {
         </article>
       </main>
     </div>
-  )
-}
+  );
+} */
 
-export default App
+export default App;
